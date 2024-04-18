@@ -1,0 +1,17 @@
+python-1
+
+
+print("Starting line")
+a = [11,22,33]
+print(y)
+
+print(a[5])
+try:
+    a = 10 / 5
+except:
+    print("Some exception raised")
+else:
+    print("No exception raised,everything worked perfectly")
+finally:
+    print("This is a final block")
+print("Outside try block")
